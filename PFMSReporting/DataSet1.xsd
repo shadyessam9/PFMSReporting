@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vehiclesmeta" msprop:Generator_RowEvHandlerName="vehiclesmetaRowChangeEventHandler" msprop:Generator_RowDeletedName="vehiclesmetaRowDeleted" msprop:Generator_RowDeletingName="vehiclesmetaRowDeleting" msprop:Generator_RowEvArgName="vehiclesmetaRowChangeEvent" msprop:Generator_TablePropName="vehiclesmeta" msprop:Generator_RowChangedName="vehiclesmetaRowChanged" msprop:Generator_UserTableName="vehiclesmeta" msprop:Generator_RowChangingName="vehiclesmetaRowChanging" msprop:Generator_RowClassName="vehiclesmetaRow" msprop:Generator_TableClassName="vehiclesmetaDataTable" msprop:Generator_TableVarName="tablevehiclesmeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="v_id" msprop:Generator_ColumnPropNameInTable="v_idColumn" msprop:Generator_ColumnPropNameInRow="v_id" msprop:Generator_UserColumnName="v_id" msprop:Generator_ColumnVarNameInTable="columnv_id" type="xs:string" minOccurs="0" />
+              <xs:element name="v_l1" msprop:Generator_ColumnPropNameInTable="v_l1Column" msprop:Generator_ColumnPropNameInRow="v_l1" msprop:Generator_UserColumnName="v_l1" msprop:Generator_ColumnVarNameInTable="columnv_l1" type="xs:string" minOccurs="0" />
+              <xs:element name="v_l2" msprop:Generator_ColumnPropNameInTable="v_l2Column" msprop:Generator_ColumnPropNameInRow="v_l2" msprop:Generator_UserColumnName="v_l2" msprop:Generator_ColumnVarNameInTable="columnv_l2" type="xs:string" minOccurs="0" />
+              <xs:element name="v_l3" msprop:Generator_ColumnPropNameInTable="v_l3Column" msprop:Generator_ColumnPropNameInRow="v_l3" msprop:Generator_UserColumnName="v_l3" msprop:Generator_ColumnVarNameInTable="columnv_l3" type="xs:string" minOccurs="0" />
+              <xs:element name="v_number" msprop:Generator_ColumnPropNameInTable="v_numberColumn" msprop:Generator_ColumnPropNameInRow="v_number" msprop:Generator_UserColumnName="v_number" msprop:Generator_ColumnVarNameInTable="columnv_number" type="xs:string" minOccurs="0" />
+              <xs:element name="Tload" msprop:Generator_ColumnPropNameInTable="TloadColumn" msprop:Generator_ColumnPropNameInRow="Tload" msprop:Generator_UserColumnName="Tload" msprop:Generator_ColumnVarNameInTable="columnTload" type="xs:int" minOccurs="0" />
+              <xs:element name="Tvios" msprop:Generator_ColumnPropNameInTable="TviosColumn" msprop:Generator_ColumnPropNameInRow="Tvios" msprop:Generator_UserColumnName="Tvios" msprop:Generator_ColumnVarNameInTable="columnTvios" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sitesmeta" msprop:Generator_RowEvHandlerName="sitesmetaRowChangeEventHandler" msprop:Generator_RowDeletedName="sitesmetaRowDeleted" msprop:Generator_RowDeletingName="sitesmetaRowDeleting" msprop:Generator_RowEvArgName="sitesmetaRowChangeEvent" msprop:Generator_TablePropName="sitesmeta" msprop:Generator_RowChangedName="sitesmetaRowChanged" msprop:Generator_UserTableName="sitesmeta" msprop:Generator_RowChangingName="sitesmetaRowChanging" msprop:Generator_RowClassName="sitesmetaRow" msprop:Generator_TableClassName="sitesmetaDataTable" msprop:Generator_TableVarName="tablesitesmeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="s_id" msprop:Generator_ColumnPropNameInTable="s_idColumn" msprop:Generator_ColumnPropNameInRow="s_id" msprop:Generator_UserColumnName="s_id" msprop:Generator_ColumnVarNameInTable="columns_id" type="xs:string" minOccurs="0" />
+              <xs:element name="s_name" msprop:Generator_ColumnPropNameInTable="s_nameColumn" msprop:Generator_ColumnPropNameInRow="s_name" msprop:Generator_UserColumnName="s_name" msprop:Generator_ColumnVarNameInTable="columns_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Eload" msprop:Generator_ColumnPropNameInTable="EloadColumn" msprop:Generator_ColumnPropNameInRow="Eload" msprop:Generator_UserColumnName="Eload" msprop:Generator_ColumnVarNameInTable="columnEload" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pumpsmeta" msprop:Generator_RowEvHandlerName="pumpsmetaRowChangeEventHandler" msprop:Generator_RowDeletedName="pumpsmetaRowDeleted" msprop:Generator_RowDeletingName="pumpsmetaRowDeleting" msprop:Generator_RowEvArgName="pumpsmetaRowChangeEvent" msprop:Generator_TablePropName="pumpsmeta" msprop:Generator_RowChangedName="pumpsmetaRowChanged" msprop:Generator_UserTableName="pumpsmeta" msprop:Generator_RowChangingName="pumpsmetaRowChanging" msprop:Generator_RowClassName="pumpsmetaRow" msprop:Generator_TableClassName="pumpsmetaDataTable" msprop:Generator_TableVarName="tablepumpsmeta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pump" msdata:Caption="pumb" msprop:Generator_ColumnPropNameInTable="pumpColumn" msprop:Generator_ColumnPropNameInRow="pump" msprop:Generator_UserColumnName="pump" msprop:Generator_ColumnVarNameInTable="columnpump" type="xs:string" minOccurs="0" />
+              <xs:element name="Load" msprop:Generator_ColumnPropNameInTable="LoadColumn" msprop:Generator_ColumnPropNameInRow="Load" msprop:Generator_UserColumnName="Load" msprop:Generator_ColumnVarNameInTable="columnLoad" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Scans" msprop:Generator_RowClassName="ScansRow" msprop:Generator_RowEvHandlerName="ScansRowChangeEventHandler" msprop:Generator_RowDeletedName="ScansRowDeleted" msprop:Generator_RowDeletingName="ScansRowDeleting" msprop:Generator_RowEvArgName="ScansRowChangeEvent" msprop:Generator_TablePropName="Scans" msprop:Generator_RowChangedName="ScansRowChanged" msprop:Generator_UserTableName="Scans" msprop:Generator_RowChangingName="ScansRowChanging" msprop:Generator_TableClassName="ScansDataTable" msprop:Generator_TableVarName="tableScans">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sc_id" msprop:Generator_UserColumnName="sc_id" msprop:Generator_ColumnPropNameInTable="sc_idColumn" msprop:Generator_ColumnPropNameInRow="sc_id" msprop:Generator_ColumnVarNameInTable="columnsc_id" type="xs:string" minOccurs="0" />
+              <xs:element name="sc_date" msprop:Generator_UserColumnName="sc_date" msprop:Generator_ColumnPropNameInTable="sc_dateColumn" msprop:Generator_ColumnPropNameInRow="sc_date" msprop:Generator_ColumnVarNameInTable="columnsc_date" type="xs:string" minOccurs="0" />
+              <xs:element name="sc_shift" msprop:Generator_UserColumnName="sc_shift" msprop:Generator_ColumnPropNameInTable="sc_shiftColumn" msprop:Generator_ColumnPropNameInRow="sc_shift" msprop:Generator_ColumnVarNameInTable="columnsc_shift" type="xs:string" minOccurs="0" />
+              <xs:element name="vehicle" msprop:Generator_UserColumnName="vehicle" msprop:Generator_ColumnPropNameInTable="vehicleColumn" msprop:Generator_ColumnPropNameInRow="vehicle" msprop:Generator_ColumnVarNameInTable="columnvehicle" type="xs:string" minOccurs="0" />
+              <xs:element name="site" msprop:Generator_UserColumnName="site" msprop:Generator_ColumnPropNameInTable="siteColumn" msprop:Generator_ColumnPropNameInRow="site" msprop:Generator_ColumnVarNameInTable="columnsite" type="xs:string" minOccurs="0" />
+              <xs:element name="ship" msprop:Generator_UserColumnName="ship" msprop:Generator_ColumnPropNameInTable="shipColumn" msprop:Generator_ColumnPropNameInRow="ship" msprop:Generator_ColumnVarNameInTable="columnship" type="xs:string" minOccurs="0" />
+              <xs:element name="pump" msprop:Generator_UserColumnName="pump" msprop:Generator_ColumnPropNameInTable="pumpColumn" msprop:Generator_ColumnPropNameInRow="pump" msprop:Generator_ColumnVarNameInTable="columnpump" type="xs:string" minOccurs="0" />
+              <xs:element name="time" msprop:Generator_UserColumnName="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnVarNameInTable="columntime" type="xs:string" minOccurs="0" />
+              <xs:element name="trip_time" msprop:Generator_UserColumnName="trip_time" msprop:Generator_ColumnPropNameInTable="trip_timeColumn" msprop:Generator_ColumnPropNameInRow="trip_time" msprop:Generator_ColumnVarNameInTable="columntrip_time" type="xs:string" minOccurs="0" />
+              <xs:element name="loading_time" msprop:Generator_UserColumnName="loading_time" msprop:Generator_ColumnPropNameInTable="loading_timeColumn" msprop:Generator_ColumnPropNameInRow="loading_time" msprop:Generator_ColumnVarNameInTable="columnloading_time" type="xs:string" minOccurs="0" />
+              <xs:element name="delay" msprop:Generator_UserColumnName="delay" msprop:Generator_ColumnPropNameInTable="delayColumn" msprop:Generator_ColumnPropNameInRow="delay" msprop:Generator_ColumnVarNameInTable="columndelay" type="xs:string" minOccurs="0" />
+              <xs:element name="state" msprop:Generator_UserColumnName="state" msprop:Generator_ColumnPropNameInTable="stateColumn" msprop:Generator_ColumnPropNameInRow="state" msprop:Generator_ColumnVarNameInTable="columnstate" type="xs:string" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_UserColumnName="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnVarNameInTable="columntype" type="xs:string" minOccurs="0" />
+              <xs:element name="load" msprop:Generator_UserColumnName="load" msprop:Generator_ColumnPropNameInTable="loadColumn" msprop:Generator_ColumnPropNameInRow="load" msprop:Generator_ColumnVarNameInTable="columnload" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Violations" msprop:Generator_RowEvHandlerName="ViolationsRowChangeEventHandler" msprop:Generator_RowDeletedName="ViolationsRowDeleted" msprop:Generator_RowDeletingName="ViolationsRowDeleting" msprop:Generator_RowEvArgName="ViolationsRowChangeEvent" msprop:Generator_TablePropName="Violations" msprop:Generator_RowChangedName="ViolationsRowChanged" msprop:Generator_RowChangingName="ViolationsRowChanging" msprop:Generator_TableClassName="ViolationsDataTable" msprop:Generator_RowClassName="ViolationsRow" msprop:Generator_TableVarName="tableViolations" msprop:Generator_UserTableName="Violations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vi_id" msprop:Generator_ColumnPropNameInRow="vi_id" msprop:Generator_ColumnPropNameInTable="vi_idColumn" msprop:Generator_ColumnVarNameInTable="columnvi_id" msprop:Generator_UserColumnName="vi_id" type="xs:string" minOccurs="0" />
+              <xs:element name="vehicle" msprop:Generator_ColumnPropNameInRow="vehicle" msprop:Generator_ColumnPropNameInTable="vehicleColumn" msprop:Generator_ColumnVarNameInTable="columnvehicle" msprop:Generator_UserColumnName="vehicle" type="xs:string" minOccurs="0" />
+              <xs:element name="site" msprop:Generator_ColumnPropNameInRow="site" msprop:Generator_ColumnPropNameInTable="siteColumn" msprop:Generator_ColumnVarNameInTable="columnsite" msprop:Generator_UserColumnName="site" type="xs:string" minOccurs="0" />
+              <xs:element name="cause" msprop:Generator_ColumnPropNameInRow="cause" msprop:Generator_ColumnPropNameInTable="causeColumn" msprop:Generator_ColumnVarNameInTable="columncause" msprop:Generator_UserColumnName="cause" type="xs:string" minOccurs="0" />
+              <xs:element name="shift" msprop:Generator_ColumnPropNameInRow="shift" msprop:Generator_ColumnPropNameInTable="shiftColumn" msprop:Generator_ColumnVarNameInTable="columnshift" msprop:Generator_UserColumnName="shift" type="xs:string" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_UserColumnName="date" type="xs:string" minOccurs="0" />
+              <xs:element name="time" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_UserColumnName="time" type="xs:string" minOccurs="0" />
+              <xs:element name="resolved" msprop:Generator_ColumnPropNameInRow="resolved" msprop:Generator_ColumnPropNameInTable="resolvedColumn" msprop:Generator_ColumnVarNameInTable="columnresolved" msprop:Generator_UserColumnName="resolved" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
